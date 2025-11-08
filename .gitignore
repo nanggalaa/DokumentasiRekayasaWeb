@@ -1,0 +1,25 @@
+# Laravel & PHP
+/vendor/
+.env
+.env.*
+*.log
+/storage/*.key
+/public/storage
+/node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE & system files
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+*.sublime-project
+.idea/
+.vscode/
+
+# Composer
+composer.lock
+
+# Cache
+bootstrap/cache/*
+!.gitignore
